@@ -477,20 +477,6 @@ redBackground();
   *****
 
 */
-function tree(height) {
-  // Itera per ogni riga dell'albero
-  for (let i = 0; i < height; i++) {
-    // Calcola il numero di spazi bianchi necessari per centrare gli asterischi
-    const spaces = " ".repeat(height - i - 1);
-    // Calcola il numero di asterischi per la riga corrente
-    const stars = "*".repeat(2 * i + 1);
-    // Stampa la riga con gli spazi e gli asterischi
-    console.log(spaces + stars);
-  }
-}
-
-// Esempio di utilizzo
-tree(3);
 
 /* ESERCIZIO 29
   Crea una funzione chiamata "isItPrime" che riceve un numero come parametro e ritorna true se il numero fornito è un numero primo.
